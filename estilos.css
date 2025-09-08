@@ -137,3 +137,27 @@ footer {
   color: #3c2c1e;
   line-height: 1.5;
 }
+#ubicacion {
+  background-color: #fdf8f3;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#ubicacion h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #6e4c2f;
+  margin-bottom: 15px;
+}
+
+#ubicacion p {
+  text-align: center;
+  font-size: 18px;
+  color: #3c2c1e;
+  margin-bottom: 20px;
+}
+
+.mapa iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
