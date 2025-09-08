@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdf6f0;
+  color: #3a2f2f;
+}
+
+header {
+  background: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+button {
+  background: #8c5e3c;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  cursor: pointer;
+}
+
+footer {
+  background: #1c1c1c;
+  color: #fdf6f0;
+  text-align: center;
+  padding: 1em;
+}
+.icono {
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+  margin-right: 3px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CVG Contemporary Jewelry</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="CVG Logo" class="logo">
+    <h1>CVG Contemporary Jewelry</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Diseñamos joyas artesanales en alpaca, bronce y cobre: pulseras, anillos, collares y colgantes únicos, hechos a mano con estilo contemporáneo y materiales nobles. Cada pieza refleja identidad, oficio y detalle.</p>
+  </section>
+<section id="nosotros">
+  <h2>Sobre mí</h2>
+  <p>Mi nombre es Claudia Virginia Goytia y soy creadora de CVG Contemporary Jewelry. Desde Monte Grande, diseño y elaboro joyas artesanales en alpaca, bronce y cobre, combinando técnicas tradicionales con una estética contemporánea. Cada pieza nace del encuentro entre oficio, identidad y detalle.</p>
+
+  <p>CVG es el resultado de años de exploración, pasión y trabajo con las manos. Cada joya que creo tiene una historia, una intención y una conexión con quien la lleva. Me inspiro en los materiales nobles, en las formas orgánicas y en el deseo de ofrecer piezas únicas que trasciendan el tiempo.</p>
+
+  <p>Creo en la belleza que se construye desde lo artesanal, en el valor de lo hecho a medida, y en el poder de una pieza que representa a quien la elige. Gracias por visitar mi espacio. Espero que encuentres aquí algo que te inspire y te acompañe.</p>
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#catalogo">Catálogo</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+</section>
+  <section id="catalogo">
+    <h2>Catálogo</h2>
+    <p>Próximamente vas a encontrar aquí nuestras piezas destacadas.</p>
+  </section>
+
+ <section id="contacto">
+  <h2>Contacto</h2>
+  <form>
+  <input type="text" placeholder="Tu nombre" required>
+  <input type="email" placeholder="Tu correo" required>
+  <textarea placeholder="Tu mensaje" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+<!-- Enlaces a redes con íconos -->
+<div class="redes">
+  <p>También podés contactarnos por:</p>
+  <ul>
+    <li>
+      <a href="https://wa.me/5491159510503" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" class="icono">
+        WhatsApp
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/claudia_vg15" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" class="icono">
+        Instagram
+      </a>
+    </li>
+    <li>
+      <a href="mailto:claudiavirginiagoytia@gmail.com" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" class="icono">
+        Email
+      </a>
+    </li>
+  </ul>
+</div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 - CVG Contemporary Jewelry</p>
+  </footer>
+</body>
+
+</html>
