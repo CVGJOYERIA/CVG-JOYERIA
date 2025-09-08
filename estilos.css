@@ -96,3 +96,44 @@ footer {
     height: auto;
   }
 }
+/* Estilo para sección de preguntas frecuentes */
+#faq {
+  background-color: #fdf8f3;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#faq h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #6e4c2f;
+  margin-bottom: 30px;
+}
+
+#faq details {
+  background-color: #fff;
+  border: 1px solid #d4bfa3;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+#faq details:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#faq summary {
+  font-weight: bold;
+  font-size: 18px;
+  color: #5a3e2b;
+  cursor: pointer;
+}
+
+#faq p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #3c2c1e;
+  line-height: 1.5;
+}
